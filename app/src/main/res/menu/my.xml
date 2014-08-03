@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+
+    <item android:id="@+id/menu_cortar"
+        android:title="Cortar"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_pegar"
+        android:title="Pegar"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menu_compartir"
+        android:title="Compartir"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/MnuOpc3"
+        android:title="Opcion3"
+        android:icon="@android:drawable/ic_menu_agenda">
+        <menu>
+            <group android:id="@+id/grupo1">
+
+                <item android:id="@+id/SubMnuOpc1"
+                    android:title="Opcion 3.1" />
+                <item android:id="@+id/SubMnuOpc2"
+                    android:title="Opcion 3.2" />
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
